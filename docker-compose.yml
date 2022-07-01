@@ -1,0 +1,40 @@
+version: "3.8"
+services:
+  neo4j:
+    image: neo4j:4.4.3-community
+    ports:
+      - 7474:7474
+      - 7687:7687
+    restart: unless-stopped
+    environment:
+      - NEO4J_AUTH=neo4j/george-polygon-heroic-double-ranger-9097
+    command: neo4j
+    volumes:
+      - ./db/data:/data
+      - ./db/conf:/conf
+      - ./db/logs:/logs
+      - ./db/plugins:/plugins
+    networks:
+      backend:
+        ipv4_address: 10.5.0.5
+
+  app:
+    build: .
+    container_name: "test-pagarme"
+    ports:
+      - 80:80
+    depends_on:
+      - neo4j
+    networks:
+      backend:
+        ipv4_address: 10.5.0.6
+    links:
+      - neo4j:neo4j
+
+networks:
+  backend:
+    driver: bridge
+    ipam:
+     config:
+       - subnet: 10.5.0.0/16
+         gateway: 10.5.0.1
