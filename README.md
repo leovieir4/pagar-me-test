@@ -23,6 +23,8 @@ Código publicado no GitHub
   - POST /person/relashion : Cria um relacionamento (Pai/Filho) entre dois nós
   - POST /person/bacon_number : Busca o bacon number entre dois nós
   - DELETE /person/genealogy/{person_id} : Busca a arvore Genealogica do nó informado
+
+  As features de não permitir relacionamento incestuoso e de busca em nivel de descendentes foram implementadas.
  
 ### Instalação e Build
 
