@@ -1,6 +1,6 @@
 # Api paga.rme
 
-## OBS: Quando clonado em maquina com sistema operacional Windows o formato do arquivo run.sh está sendo modificado para CLF ele deve ser movido novamente para LF
+## OBS: Quando clonado em maquina com sistema operacional Windows o formato do arquivo run.sh está sendo modificado para CLF ele deve ser convertido novamente para LF
 
 pagarme-test é uma api rest desenvolvida com base nas tecnologias Golang e banco de dados Neo4j.
 
