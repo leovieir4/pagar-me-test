@@ -34,13 +34,7 @@ $ docker compose up
 ```
 Após a execução desse proccesso a API estara rodando no endereço: http://localhost:80/person/
 
-### Rodando o projeto
-```sh
-$ docker compose up 
-```
-Após a execução desse proccesso a API estara rodando no endereço: http://localhost:80/person/
-
-### Acessando o Bacno Neo4j
+### Acessando o Banco Neo4j
 
 O Neo4J pode ser acessado pelo endereço:http://localhost:7474/browser/
 Nesse endereço é possivel ver os nós e seus relacionamento como na imagem a seguir:
