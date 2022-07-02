@@ -1,5 +1,7 @@
 # Api paga.rme
 
+# OBS: Quando clonado em maquina com sistema operacional Windows o formato do arquivo run.sh está sendo mmodificado para CLF ele deve ser movido novamente para LF
+
 pagarme-test é uma api rest desenvolvida com base nas tecnologias Golang e banco de dados Neo4j.
 
 DOCUMENTAÇÃO DA API: https://leonardo-vieira.stoplight.io/docs/pagarme-test/7fgxmcwkxtz2m-pagarme
