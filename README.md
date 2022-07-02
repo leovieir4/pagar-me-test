@@ -1,4 +1,4 @@
-# Challenge-compasso-uol-product-ms
+# Api paga.rme
 
 pagarme-test é uma api rest desenvolvida com base nas tecnologias Golang e banco de dados Neo4j.
 
