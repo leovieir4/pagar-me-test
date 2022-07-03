@@ -1,4 +1,4 @@
-# Api paga.me
+# Api pagar.me
 
 ## OBS: Quando clonado em maquina com sistema operacional Windows o formato do arquivo run.sh está sendo modificado para CLF ele deve ser convertido novamente para LF
 
