@@ -45,4 +45,4 @@ Nesse endereço é possivel ver os nós e seus relacionamentos como na imagem a 
 
 ![neo4j](https://i.ibb.co/MDYb4Fh/neo4j.png)
 
-## OBS: a senha de acesso ano neo4j e o username podem ser encontradas dentro do arwuivo .env
+## OBS: a senha de acesso ao neo4j e o username podem ser encontradas dentro do arwuivo .env
