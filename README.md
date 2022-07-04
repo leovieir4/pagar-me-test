@@ -44,3 +44,5 @@ O Neo4J pode ser acessado pelo endereço: http://localhost:7474/browser/
 Nesse endereço é possivel ver os nós e seus relacionamentos como na imagem a seguir:
 
 ![neo4j](https://i.ibb.co/MDYb4Fh/neo4j.png)
+
+##OBS: a senha de acesso ano neo4j e o password podem ser encontradas dentro do arwuivo .env
